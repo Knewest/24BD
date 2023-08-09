@@ -1,5 +1,5 @@
 ## 言語選択:
-English || 日本語
+[English](https://github.com/Knewest/24BD/blob/main/README.md) || [日本語](https://github.com/Knewest/24BD/blob/main/README_JP.md)
 
 # 24BD: 正しいブルーレイの映像を24FPSに
 
