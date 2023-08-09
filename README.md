@@ -20,5 +20,10 @@ Many modern players and systems have trouble playing 23.976FPS content accuratel
 ## How to Use:
 
 Download the prepacked `*.7z` or `*.zip` file, then extract the contents and run the `24BD [v#.#].exe`.
-<br><a href="https://github.com/Knewest/24BD/releases">
+<br><br><a href="https://github.com/Knewest/24BD/releases">
   <img src="https://cdn.discordapp.com/attachments/753561208073879642/1110739988712271873/DownloadButtonFromGithub.webp" alt="Download from GitHub" style="cursor:pointer;"/>
+
+----------------------------------------------------
+
+### Help:
+Need help? Join the [support server](https://discord.gg/NqqqzajfK4) (NqqqzajfK4).
