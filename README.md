@@ -1,3 +1,6 @@
+## Lauguage Select:
+English || 日本語
+
 # 24BD: Correct Blu-ray Footage To 24FPS
 
 24BD is a specialized media processing tool focused on losslessly converting video footage from 24000/1001 FPS (commonly known as 23.976FPS) to a true 24000/1000 FPS (24.000FPS). This ensures accurate playback speed for content originally shot at 24FPS. This operation is performed without re-encoding, preserving the utmost quality of the original footage. This also takes into account the audio, which will also be remuxed to fit the new length of the video.
@@ -7,11 +10,17 @@
 </a><br>
 ## Key Features:
 
-1. **Lossless Conversion <sub>(Remuxing)</sub>:** Ensures that the conversion from 23.976FPS to 24FPS is done without any loss in quality.
-2. **Playback Speed Accuracy:** Restores footage to its original 24FPS playback speed, resulting in natural motion.
-3. **Interactive UI:** A user-friendly interface allowing easy file selection and process initiation.
-4. **Custom Output Naming:** An intuitive modal to specify the desired output filename and extension.
-5. **Real-time Status Updates:** Provides feedback throughout the conversion process, keeping users informed.
+### **<sub>Lossless Conversion:</sub>**
+<sub>Ensures that the conversion from 23.976FPS to 24FPS is done without any loss in quality. This process is known as "remuxing".</sub>
+### **<sub>Adjusted Audio:</sub>**
+<sub>Other programs that support the remuxing of 23.976FPS footage to 24FPS always ommit the ability to remux the audio to the correct length, resulting in out of sync audio. 24BD calculates the changes required and adjusts the audio all without reencoding.</sub>
+<sub>Restores footage to its original 24FPS playback speed, resulting in natural motion.</sub>
+### **<sub>Interactive UI:</sub>**
+<sub>A user-friendly interface allowing easy file selection and process initiation.</sub>
+### **<sub>Custom Output Naming:</sub>**
+<sub>An intuitive modal to specify the desired output filename and extension.</sub>
+### **<sub>Real-time Status Updates:</sub>**
+<sub>Provides feedback throughout the conversion process, keeping users informed.</sub><br><br>
 
 ## Why This Matters:
 
