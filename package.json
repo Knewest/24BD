@@ -1,0 +1,23 @@
+{
+  "name": "24bd",
+  "version": "1.0",
+  "description": "Converts 24000/1001 (23.976FPS) footage to 24000/1000.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "package": "electron-packager . \"24BD [v1.0]\" --overwrite --icon=./24BDICO.ico",
+    "package-overwrite": "electron-packager . \"24BD [v1.0]\" --overwrite --icon=./24BDICO.ico"
+  },
+  "keywords": [],
+  "author": "Knew",
+  "license": "Boost Software License 1.0",
+  "devDependencies": {
+    "electron": "^25.4.0",
+    "electron-packager": "^17.1.1"
+  },
+  "dependencies": {
+    "ffmpeg-static": "^5.1.0",
+    "fluent-ffmpeg": "^2.1.2",
+    "sharp": "^0.32.4"
+  }
+}
