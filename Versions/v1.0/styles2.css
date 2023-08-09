@@ -1,0 +1,131 @@
+* {
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    background: linear-gradient(135deg, #B0E57C, #29ABE2);
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    max-width: 90vw;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    backdrop-filter: blur(5px);
+    box-shadow: 0 0 30px rgba(176, 229, 124, 0.4);
+}
+
+h1 {
+    font-weight: 700;
+}
+
+#fileInput, #processButton {
+    padding: 10px;
+    width: 100%;
+    border: 2px solid #29ABE2;
+    border-radius: 30px;
+    background-color: rgba(0, 0, 0, 0.1);
+    color: #333;
+}
+
+#fileInput {
+    margin-bottom: 15px;
+}
+
+#processButton {
+    display: inline-block;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#fileInput:hover, #processButton:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
+}
+
+#status {
+    margin-top: 20px;
+}
+
+.progress {
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+    height: 20px;
+    margin-top: 20px;
+}
+
+.progress-bar {
+    height: 100%;
+    background-color: rgba(41, 171, 226, 0.4);
+    border-radius: 30px;
+}
+
+.loadingThumbnailBox {
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.05);
+}
+
+.discWrapper {
+    position: relative;
+    width: 60vw;
+    height: 33.8vw; /* 16:9 aspect ratio */
+    margin: 0 auto 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#loadingWebP, #loadingWebP2, #videoThumbnail {
+    border-radius: 8px;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 60vw;
+    height: 33.8vw; /* 16:9 aspect ratio */
+}
+
+#loadingWebP {
+    z-index: 3;
+}
+
+#loadingWebP2 {
+    z-index: 4;
+    position: absolute;
+}
+
+#videoThumbnail {
+    box-shadow: 0 0 20px rgba(176, 229, 124, 0.4);
+    z-index: 2;
+    position: absolute;
+}
+
+#blurayDisc, #blurayDiscBlurred {
+    filter: drop-shadow(0 0 15px #2c3e50);
+}
+
+#blurayDiscBlurred {
+    opacity: 0;
+    filter: drop-shadow(0 0 25px #5f5);
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+@keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+}
