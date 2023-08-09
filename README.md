@@ -7,7 +7,7 @@
 </a><br>
 ## Key Features:
 
-1. **Lossless Conversion (Remuxing):** Ensures that the conversion from 23.976FPS to 24FPS is done without any loss in quality.
+1. **Lossless Conversion (Remux):** Ensures that the conversion from 23.976FPS to 24FPS is done without any loss in quality.
 2. **Playback Speed Accuracy:** Restores footage to its original 24FPS playback speed, resulting in natural motion.
 3. **Interactive UI:** A user-friendly interface allowing easy file selection and process initiation.
 4. **Custom Output Naming:** An intuitive modal to specify the desired output filename and extension.
