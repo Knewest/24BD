@@ -1,5 +1,5 @@
 ## Lauguage Select:
-English || 日本語
+[English](https://github.com/Knewest/24BD/blob/main/README.md) || [日本語](https://github.com/Knewest/24BD/blob/main/README_JP.md)
 
 # 24BD: Correct Blu-ray Footage To 24FPS
 
