@@ -1,0 +1,71 @@
+<!--
+# Version 1.1 of 24BD
+# Copyright (Boost Software License 1.0) 2023-2023 Knew
+# Link to software: https://github.com/Knewest/24BD
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>24BD [v1.1]</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles4.css">
+
+    <div class="modal" id="outputModal">
+        <div class="modal-content">
+            <div class="modal-body">
+                <label for="outputFileName">FILE NAME:</label>
+                <input type="text" id="outputFileName" placeholder="Enter file name">
+            
+                <label for="outputFileExt">FILE EXTENSION:</label>
+                <input type="text" id="outputFileExt" placeholder=".mov, .mp4, .mkv, .webm, etc.">
+            </div>
+            <div class="modal-footer">
+                <button id="confirmOutputBtn">CONFIRM</button>
+                <button id="cancelOutputBtn">CANCEL</button>
+            </div>
+        </div>
+    </div>
+
+    <body>
+        <div class="container">
+            
+            <div class="loadingThumbnailBox">
+                <div class="discWrapper">
+                    <img src="" id="videoThumbnail" style="display: none; max-width: 100%; width: 300px;">
+                    <img src="./bluray-disc-blurred.webp" id="blurayDiscBlurred" style="width: 300px; position: absolute; transition: opacity 0.5s;">
+                    <img src="./bluray-disc.webp" id="blurayDisc" style="width: 300px; position: absolute; opacity: 0.8;">
+                    <img src="./loadingBar.webp" id="loadingWebP" style="display: none; width: 300px;">
+                    <img src="./loadingBar2.webp" id="loadingWebP2" style="display: none; width: 300px;">
+                </div>
+            </div>
+            
+            <div class="controls">
+            <img src="24BD_Original.webp" alt="24BD Logo" style="width: 150px; margin-bottom: 20px;">
+            <h1>24BD: Correct Blu-ray Footage To 24FPS</h1>
+            <label for="fileInput" class="custom-file-upload">
+                <input type="file" id="fileInput" placeholder="SELECT MEDIA FILE">
+                SELECT MEDIA FILE
+            </label>
+            <div id="selectedFileName">NO FILE SELECTED...</div>                            
+            <button id="processButton">CORRECT BLU-RAY FOOTAGE</button>
+            <div id="status">
+                －　<span id="processingStatus">WAITING FOR FILE...</span>　－<br>
+                －　CURRENT STAGE: <span id="currentStage">IDLE</span>　－<br><br>
+                <span id="elapsedTime">　</span>
+            </div>              
+            <div class="progress" id="progressBar">
+                <div class="progress-bar" id="progressInner" data-tooltip="Estimated time: 00:03:45" style="display: none;"></div>
+            </div>
+            <a href="https://github.com/Knewest/24BD" target="_blank" id="githubLogo">
+                <img src="github-logo-vector.svg" alt="GitHub">
+            </a>        
+        </div>
+    </div>
+    <script src="renderer.js"></script>
+    </body> 
+    
+
+</html>
