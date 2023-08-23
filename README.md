@@ -1,3 +1,8 @@
+# IMPORTANT: WAIT FOR THE V1.2 PATCH:
+<br><a href="https://cdn.discordapp.com/attachments/753561208073879642/1143819814876500049/xOYvb6cbGT.webp">
+  <img src="https://cdn.discordapp.com/attachments/753561208073879642/1143819814876500049/xOYvb6cbGT.webp" alt="Alert" style="cursor:pointer;"/>
+</a><br>
+
 ## Lauguage Select:
 [English](https://github.com/Knewest/24BD/blob/main/README.md) || [日本語](https://github.com/Knewest/24BD/blob/main/README_JP.md)
 
