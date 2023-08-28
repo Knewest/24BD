@@ -18,7 +18,7 @@
 ### **<sub>Lossless Conversion:</sub>**
 <sub>Ensures that the conversion from 23.976FPS to 24FPS is done without any loss in quality. This process is known as "remuxing".</sub>
 ### **<sub>Adjusted Audio:</sub>**
-<sub>Other programs that support the remuxing of 23.976FPS footage to 24FPS always ommit the ability to remux the audio to the correct length, resulting in out of sync audio. 24BD calculates the changes required and adjusts the audio all without reencoding.</sub>
+<sub>Other programs that support the remuxing of 23.976FPS footage to 24FPS always ommit the ability to adjust the audio to the correct length, resulting in out of sync audio. 24BD calculates the changes required (pitch and tempo) and adjusts the audio as using as lossless as a process as it can be (bitrate is left intact).</sub>
 <sub>Restores footage to its original 24FPS playback speed, resulting in natural motion.</sub>
 ### **<sub>Interactive UI:</sub>**
 <sub>A user-friendly interface allowing easy file selection and process initiation.</sub>
